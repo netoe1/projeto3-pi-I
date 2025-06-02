@@ -4,7 +4,7 @@
 LINGUAGENS=("python" "c")
 ALGORITMOS=("bubblesort" "mergesort") 
 TAMANHOS_ENTRADA=(10 100 1000 10000) 
-NUM_EXECUCOES_MEDIA=10 # Número de vezes que cada combinação será executada para a média [cite: 11]
+NUM_EXECUCOES_MEDIA=10 # Número de vezes que cada combinação será executada para a média 
 
 # Caminho para o script executor (assumindo que está no mesmo diretório)
 EXECUTOR="./executaScriptShell.sh"
