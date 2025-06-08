@@ -48,6 +48,5 @@ tempo_inicial = time.time() # em segundos
 mergesort(alist)
 tempo_final=time.time()# em segundos
 tempo_calculado = tempo_final - tempo_inicial
-#print(f"{valor};{tempo_calculado:.12f};")
-print(f"{valor};{tempo_calculado};")
+print(f"{valor};{tempo_calculado:.12f};")
 #print(alist)
