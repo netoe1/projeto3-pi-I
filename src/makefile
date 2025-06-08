@@ -3,14 +3,19 @@ MERGE_C = mergesort.c
 BUBBLE_PY = bubble.py
 MERGE_PY = merge.py
 
-bubble_comp:
+scripts: # Compilar os scripts
 	gcc -o bubble ${BUBBLE_C}
-merge_comp:
 	gcc -o merge ${MERGE_C}
-all:
-	make bubble_comp merge_comp
-clean:
-	rm -f *.obj *.o 
-
+clean: # Limpar os arquivos objeto da linguagem C
+	rm -f *.obj *.o   
+	rm -f bubble merge
+graphics: # Gerar apenas o plot dos arquivos.csv
+	./executor.sh -g
+run: # Para rodar todo o projeto
+	make clean
+	make scripts
+	./executor.sh -m
+	./executor.sh -g
+	
 
 	

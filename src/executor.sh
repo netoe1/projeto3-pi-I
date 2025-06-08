@@ -2,8 +2,8 @@
 
 # --- Parâmetros Configuráveis ---
 LINGUAGENS=("c" "python")
-ALGORITMOS=("bubble" "merge") 
-TAMANHOS_ENTRADA=(10 100 1000 10000) 
+ALGORITMOS=("merge" "bubble") 
+TAMANHOS_ENTRADA=(10 100 1000 10000 100000 1000000000)
 NUM_EXECUCOES_MEDIA=10 # Número de vezes que cada combinação será executada para a média
 
 # Caminho para o script executor (assumindo que está no mesmo diretório)
