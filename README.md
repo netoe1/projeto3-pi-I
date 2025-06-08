@@ -30,4 +30,4 @@ Se você clonou o projeto, primeira coisa: Instale o Make no seu Linux, pois ele
 
 ## Último gráfico gerado com o make:
 
-<img src = "./Análise de Algoritmos - Médias.png">
+<img src = "./src/Análise de Algoritmos - Médias.png">
