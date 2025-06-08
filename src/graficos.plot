@@ -23,10 +23,10 @@ TITULO_BUBBLE_PY = 'Bubble Sort (Python)';
 TITULO_MERGE_PY = 'Merge Sort (Python)';
 
 # -> Nomes dos Arquivos de Entrada (CSV)
-FILE_BUBBLE_C = "media_bubblesort_c.csv";
-FILE_BUBBLE_PY = "media_bubblesort_python.csv";
-FILE_MERGE_C = "media_mergesort_c.csv";
-FILE_MERGE_PY = "media_mergesort_python.csv";
+FILE_BUBBLE_C = "media_bubble_c.csv";
+FILE_BUBBLE_PY = "media_bubble_python.csv";
+FILE_MERGE_C = "media_merge_c.csv";
+FILE_MERGE_PY = "media_merge_python.csv";
 
 # -> Saída do Gráfico
 ARQUIVO_SAIDA = TITULO_GRAFICO . '.png'; # Concatena o título com a extensão
