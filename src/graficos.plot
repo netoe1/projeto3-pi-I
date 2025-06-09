@@ -75,10 +75,11 @@ set logscale y;
 
 # Definição dos ranges dos eixos
 set xrange [X_MIN:X_MAX];
-set yrange [Y_MIN:*]; # '*' para que o Gnuplot determine o máximo automaticamente
+set yrange [Y_MIN:200]; # '*' para que o Gnuplot determine o máximo automaticamente
+set ytics 1e-6, 1e2, 1e6
 
 # Comando PLOT para todas as linhas
-plot FILE_BUBBLE_C using CSV_PROP_X:CSV_PROP_Y with linespoints lw LARGURA_LINHA title TITULO_BUBBLE_C, \
-     FILE_MERGE_C using CSV_PROP_X:CSV_PROP_Y with linespoints lw LARGURA_LINHA  title TITULO_MERGE_C, \
-     FILE_BUBBLE_PY using CSV_PROP_X:CSV_PROP_Y with linespoints lw LARGURA_LINHA  title TITULO_BUBBLE_PY, \
-     FILE_MERGE_PY using CSV_PROP_X:CSV_PROP_Y with linespoints lw LARGURA_LINHA  title TITULO_MERGE_PY
+plot FILE_BUBBLE_C  using  CSV_PROP_X:CSV_PROP_Y  with linespoints lw LARGURA_LINHA title TITULO_BUBBLE_C, \
+     FILE_MERGE_C   using  CSV_PROP_X:CSV_PROP_Y with linespoints lw LARGURA_LINHA  title TITULO_MERGE_C, \
+     FILE_BUBBLE_PY using  CSV_PROP_X:CSV_PROP_Y  with linespoints lw LARGURA_LINHA  title TITULO_BUBBLE_PY, \
+     FILE_MERGE_PY  using  CSV_PROP_X:CSV_PROP_Y  with linespoints lw LARGURA_LINHA  title TITULO_MERGE_PY
