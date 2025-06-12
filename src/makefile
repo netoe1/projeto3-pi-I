@@ -11,6 +11,9 @@ clean: # Limpar os arquivos objeto da linguagem C
 	rm -f bubble merge
 graphics: # Gerar apenas o plot dos arquivos.csv
 	./executor.sh -g
+
+create_logs:
+	./executor.sh -m >> logsexemplo.txt
 run: # Para rodar todo o projeto
 	make clean
 	make scripts
