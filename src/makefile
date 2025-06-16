@@ -9,6 +9,8 @@ scripts: # Compilar os scripts
 clean: # Limpar os arquivos objeto da linguagem C
 	rm -f *.obj *.o   
 	rm -f bubble merge
+	rm -f ./*.csv
+	rm -f ./*.png
 graphics: # Gerar apenas o plot dos arquivos.csv
 	./executor.sh -g
 
