@@ -56,5 +56,5 @@ tempo_inicial = time.time()
 mergesort(alist, 0, len(alist) - 1)
 tempo_final = time.time()
 
-print(str(valor) + ";" + str(tempo_final - tempo_inicial) + ";")
+print(f"{valor};{tempo_final - tempo_inicial:.12f};")
 # print(alist)  # Descomente para imprimir a lista ordenada
